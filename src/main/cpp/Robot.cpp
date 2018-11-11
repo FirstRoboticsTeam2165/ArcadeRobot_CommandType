@@ -11,6 +11,17 @@
 /* 
 /* This project is a TimedRobot, CommandBased Project similar to the type used 2018.
 /* Code for the project is to serve as example for building more complicated projects
+/*
+/* Additional Command & Subsystem files may be created by right clicking on Commands or
+/* Subsystems folders and selecting Create a new class/Command.  Type the name of the 
+/* file in box without the .cpp or .h extent. If using git look for the file after
+/* clicking the git fork on the right. Open the file using the icon to the right of the 
+/* project and drag & drop the file into the appropiate Command/Subsystem folder. 
+/* If adding the RobotMap.cpp without adding a header file, right click cpp, select
+/* New File, and drag & drop to position under Robot.cpp. Configure the RobotMap.cpp file
+/* to create pointers to the subsystem objects.
+/*  
+/*
 /* Robot configuration:
 /* -  Arcade Drive
 /* -  4 TalonXRS motor controllers

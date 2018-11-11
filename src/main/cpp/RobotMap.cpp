@@ -18,7 +18,7 @@ std::shared_ptr<SpeedControllerGroup> RobotMap::m_right;
 std::shared_ptr<DifferentialDrive> RobotMap::diffDrive;
 
 void RobotMap::init() {
-// create ptrs to system objects
+// create ptrs to subsystem objects
 
     driveTrainFrontLeft.reset(new WPI_TalonSRX(FRONTLEFT));
     driveTrainRearLeft.reset(new WPI_TalonSRX(REARLEFT));
