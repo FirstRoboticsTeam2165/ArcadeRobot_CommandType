@@ -12,16 +12,11 @@
 //#include <SmartDashboard/SendableChooser.h>
 #include <TimedRobot.h>
 
-#include "Commands/ExampleCommand.h"
-
-// add #include for autonomous commands here:
-//#include "Commands/MyAutoCommand.h"
 #include "RobotMap.h"
 #include "OI.h"
 
 // add includes for Subsystems here:
 #include "Subsystems/DriveTrain.h"
-#include "Subsystems/ExampleSubsystem.h"
 
 class Robot : public frc::TimedRobot {
  public:
@@ -44,10 +39,5 @@ class Robot : public frc::TimedRobot {
   void TestPeriodic() override;
 
  private:
-  // Have it null by default so that if testing teleop it
-  // doesn't have undefined behavior and potentially crash.
-  //frc::Command* m_autonomousCommand = nullptr;
-  //ExampleCommand m_defaultAuto;
-  //MyAutoCommand m_myAuto;
-  //frc::SendableChooser<frc::Command*> m_chooser;
+ 
 };
